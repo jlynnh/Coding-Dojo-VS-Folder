@@ -1,0 +1,19 @@
+h3{
+    font-family: sans-serif; text-decoration: underline; text-align: right; color: black; background-color: rgb(103, 142, 224);
+    font-size: 20px; font-weight: 100;
+}
+
+h2{
+    background-color: rebeccapurple; color: white; font-family: sans-serif; text-align: center; font-style: italic;
+    font-weight: 300;
+}
+
+h1{
+    background-color: black; color: white; font-family: sans-serif; 
+}
+.My{
+    color: white;
+}
+.Cloud{
+    color: aqua;
+}

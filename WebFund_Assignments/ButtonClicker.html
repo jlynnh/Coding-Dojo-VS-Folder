@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker Assignment</title>
+    <link rel="stylesheet" href="ButtonClickerCSS.css">
+</head>
+<body>
+    <div class="container-page">
+        <div class="top-nav">
+            <div class="title">Dojonary</div>
+            <div class="search-box"><input class="search" type="text" name="search" placeholder="Search"></div>
+            <div class="login-box"><button class="login" onclick="turnoff(this)">Login</button></div>
+        </div>
+        <div class="row">
+            <div class="ninja1">
+                <div class="row">
+                    <div><h1>ninja</h1></div>
+                    <div><p class="p1">noun</p></div>
+                    <div><p class="p2">Plural: <span class="italic">ninjas</span> </p></div>
+                    <div><p class="p3">A practitioner skilled in the <span><a href="#">Japanese</a></span> art of <span><a href="#">ninjutsu</a></span></p></div>
+                    <div><button class="likes" onclick ="alert('A ninja was liked!')"><span>13 </span>likes</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="dojonary">
+                <div><h2>Dojonary is defined by <span class="bold">YOU</span></h1></div>
+                <div class="add1"><button class="add" onclick="hide(this)">Add Definition</button></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ninja2">
+                <div class="row">
+                    <div><h3>ninja</h1></div>
+                    <div><p class="p4">noun</p></div>
+                    <div><p class="p5">Plural: <span class="italic">ninjas</span> </p></div>
+                    <div><p class="p6">A <span><a href="#">programmer</a></span> who breaks down problems with <span><a href="#">zen</a></span>-like focus</p></div>
+                    <div><button class="likes" onclick ="alert('A ninja was liked!')"><span>37 </span>likes</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><script src="ButtonClickerScript.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,236 @@
+.container-1{
+   margin: 0px auto;
+   padding: 0px;
+   width: 100%;
+   background-color: rgb(57, 57, 57);
+   display: inline-flex;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: inline-block;
+}
+.container-title{
+    margin: 0% 0% 0% 10%;
+    padding: 20px;
+    width: 10%;
+    color: white;
+    font-size: 48pt;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.nav-links{
+    width: 60%;
+}
+
+.head{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16pt;
+    text-decoration: solid;
+    color: white;
+    display: inline-block;   
+}
+
+.button{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: cyan;
+    color: white;
+    border: 5px solid black;
+    border-radius: 5%;
+    box-shadow: 5px -5px black;
+    width: 150px;
+    height: 50px;
+}
+
+.home{
+    display: inline-block; width: 10%;
+    margin-left: 20px;
+}
+
+.profile{
+   font-weight: 700; display: inline-block; width: 13%;
+}
+
+.connect{
+    display: inline-block;
+    align-content: left;
+    width: 30%;
+}
+
+.container-2{
+    margin-left: 11%;
+    margin-top: 1%;
+    width: 950px;
+    border: 5px solid grey;
+    display: inline-block;
+}
+
+.header{
+    background-color: rgb(43, 192, 192);
+    width: 950px;
+    height: 155px;
+}
+
+.main{
+    border-radius: 50%;
+    border: 6px solid white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+ h1{
+    margin-top: 14%;
+    margin-left: 10%;
+    font-size: 36pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-loc{
+    margin-left: 10%;
+    height: 40px;
+    width: 25px;
+    display: inline-block;
+    align-items: center;
+}
+.loc{
+    height: 35px;
+    width: 20px;
+}
+.location{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.icon-loc, .location{
+    margin-top: 50px;
+}
+
+.p1, .p2, h2{
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    width: 60%;   
+}
+
+.gear-box{
+    margin: 10%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    background-color: aqua;
+    align-items: center;
+    vertical-align: top;
+}
+
+.gear{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+}
+
+.edit{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 50px;
+    font-size: 18pt;
+    color: white;
+    background-color: blue;
+}
+
+.container-3, .container-5{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1%;
+    margin-left: 200px;
+    border: 5px solid grey;
+    width: 400px;
+}
+
+.sec-header1{
+    background-color: rgb(69, 67, 67);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+
+.circle{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16pt;
+    text-align: center; justify-content: center;
+    position: absolute;
+    top: 165px;
+    margin-left: 2%;
+}
+
+.pictures{
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.icon{
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.container-4{
+    border: 4px solid grey;
+    margin-top: 1%;
+    margin-left: 11%;
+    width: 950px;
+}
+.sec-header2{
+    background-color: rgb(69, 67, 67);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.p3, .p4{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%; 
+}
+
+.p3{
+    color: gray;
+    font-weight: 500;
+}
+
+.container-5{
+    display: inline-block;
+    vertical-align: top;
+}

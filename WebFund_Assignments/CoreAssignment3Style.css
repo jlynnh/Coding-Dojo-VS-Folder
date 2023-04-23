@@ -1,0 +1,19 @@
+.container-1, .container-2, .container-3{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.container-1 {
+    background-color: aqua;
+}
+
+.container-2 {
+    background-color: blueviolet;
+}
+
+.container-3 {
+    background-color: aquamarine;
+}

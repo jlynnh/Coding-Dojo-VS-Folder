@@ -1,0 +1,121 @@
+.container-page{
+    width: 950px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 10px;
+    font-size: 28pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title2{
+    font-size: 20pt;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50%;
+    height: 60px;
+    padding: 10px;
+}
+
+.profile{
+    border: 3px solid black;
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.image{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 4px solid black;
+}
+
+.avatar{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name{
+    font-size: 20pt;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.main-box1 {
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    width: 620px;
+    padding-left: 20px;
+    margin-left: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 188px;
+}
+
+.main-box2{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    width: 620px;
+    padding-left: 20px;
+    margin-left: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 358px;    
+}
+
+.main-box3{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    width: 620px;
+    padding-left: 20px;
+    margin-left: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 528px
+}
+
+h1, h2, h3{
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    display: inline-block;
+}
+
+.p1, .p3, .p5{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.button1, .button2, .button3{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    margin-left: 10px;
+    border: 2px solid black;
+    background-color: rgb(235, 235, 28);
+    box-shadow: 5px -5px black;
+}
+
+.p2, .p4, .p6{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}

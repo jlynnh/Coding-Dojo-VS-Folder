@@ -1,0 +1,26 @@
+*{
+    outline: 1px solid red;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    background-color: aquamarine !important; color: white; font-size: 50px
+}
+
+.Green{
+    background-color: green; font-size: 60px !important; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Red{
+    background-color: red; font-size: 40px; font-family: cursive;
+}
+
+#purple{
+    background-color: rgb(128, 0, 124); font-size: 30px; color: blueviolet !important;
+}
+
+#Co{
+    font-style: italic; color: blue; text-align: center;
+}
