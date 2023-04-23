@@ -1,0 +1,23 @@
+#calculator{
+    background:linear-gradient(to bottom, white, gray, silver, gray, black, silver);
+    border: 2px solid gray;
+    padding: 1%;
+    width: fit-content;
+    margin: auto;
+}
+
+#display{
+    background-color: whitesmoke;
+    padding: 5%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+#equals{
+width: 50%;
+margin: auto;
+}
+
+.row{
+    margin: 5px;
+}
