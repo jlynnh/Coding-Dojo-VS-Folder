@@ -1,0 +1,243 @@
+.webpage{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.top-nav{
+    background-color: darkcyan;
+    width: 100%;
+    height: 190px;
+    padding-left: 400px;
+    padding-top: 20px;
+    display: inline-block;
+    border-bottom: 4px solid black;
+}
+
+.heart{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.title{
+    font-size: 36pt;
+    width: 280px;
+    margin-left: 100px;
+    position: absolute;
+    top: 50px;
+    color: white;
+    display: inline-block;
+}
+
+.find1{
+    width: 120px;
+    position: absolute;
+    top: 70px;
+    margin-left: 520px;    
+}
+
+.find, .about{
+    font-size: 16pt;
+    font-weight: 500;
+    color: black;
+    text-decoration: solid;
+}
+
+.about1{
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    margin-left: 660px;
+}
+
+.button1{
+    width: 140px;
+    height: 40px;
+    font-size: 16pt;
+    position: absolute;
+    top: 60px;
+    margin-left: 765px;
+    color: rebeccapurple;
+    font-weight: 900;
+    box-shadow: 5px 5px black;
+}
+
+.label1, .label2{
+    font-size: 12pt;
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.label1{
+    position: absolute;
+    top: 100px;
+    margin-left: 25px;
+}
+
+.paw{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.paw{
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+}
+
+#any-pet{
+    width: 200px;
+    height: 30px;
+    font-size: 12pt;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    margin-left: 60px;
+}
+
+.label2{
+    position: absolute;
+    top: 100px;
+    margin-left: 330px;
+}
+
+.map{
+    position: absolute;
+    top: 150px;
+    margin-left: 320px;
+    width: 30px;
+}
+
+.num{
+    position: absolute;
+    top: 150px;
+    margin-left: 350px;
+    font-size: 12pt;
+    width: 200px;
+    height: 24px;
+}
+
+.button2{
+    position: absolute;
+    top: 150px;
+    margin-left: 630px;
+    font-size: 12pt;
+    width: 280px;
+    height: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+.pepper, .bruce, .oscar{
+    background-color: rgb(228, 225, 225);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 480px;
+    padding: 20px;
+    width: 40%;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;    
+}
+
+.pep, .bru, .osc{
+    width: 100px;
+    height: 100px;
+}
+
+.h1, .h2, .h3{
+    font-size: 22pt;
+    margin-left: 120px;
+    width: 200px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6{
+    font-size: 12pt;
+}
+
+.p1, .p3, .p5{
+    width: 500px;
+    margin-left: 120px;
+}
+
+.p2, .p4, .p6{
+    width: 100px; 
+    margin-left: 620px;
+}
+
+.button3, .button4, .button5{
+    width: 260px;
+    height: 30px;
+    margin-left: 470px;
+    font-size: 12pt;
+    font-weight: 900;
+    background-color: rgb(35, 204, 204);
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+.h1{
+    position: absolute;
+    top: 250px;
+}
+
+.h2{
+    position: absolute;
+    top: 415px;
+}
+
+.h3{
+    position: absolute;
+    top: 580px;
+}
+
+.p1{
+    position: absolute;
+    top: 290px;
+}
+
+.p2{
+    position: absolute;
+    top: 260px;
+}
+
+.p3{
+    position: absolute;
+    top: 455px;
+}
+
+.p4{
+    position: absolute;
+    top: 430px;
+}
+
+.p5{
+    position: absolute;
+    top: 620px;
+}
+
+.p6{
+    position: absolute;
+    top: 590px;
+}
+
+.button3{
+    position: absolute;
+    top: 340px;
+}
+
+.button4{
+    position: absolute;
+    top: 505px;
+}
+
+.button5{
+    position: absolute;
+    top: 670px;
+}
