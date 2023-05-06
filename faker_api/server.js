@@ -2,29 +2,19 @@ const express = require("express");
 const app = express();
 const port = 8000;
 
-app.get('/', (req, res) => {
-    res.send(newFakeUser, newFakeCompany);
-});
-
-app.listen(port, () => {
-    console.log('Example app listening at http://localhost:${port}');
-});
-
 const faker = require('@faker-js/faker');
-const createUser = () => {
+
+function createUser() {
     const newUser = {
-        password: faker.internet.password(20, true, [A-Z]),
-        email: faker.internet.exampleEmail({allowSpecialCharacters: true }),
+        password: faker.internet.password(20, true, [A - Z]),
+        email: faker.internet.exampleEmail({ allowSpecialCharacters: true }),
         phoneNumber: faker.phone.number(),
         lastName: faker.name.lastName(),
         firstName: faker.name.firstName(),
         _id: faker.datatype.uuid()
     };
     return newUser;
-};
-
-const newFakeUser = newUser();
-console.log(newFakeUser);
+}
 
 const createCompany = () => {
     const newCompany = {
@@ -39,7 +29,17 @@ const createCompany = () => {
     return newCompany;
 };
 
+const newFakeUser = createUser();
+console.log(newFakeUser);
+
 const newFakeCompany = newCompany();
 console.log(newFakeCompany);
 
+app.get('/', (req, res) => {
+    res.send(newFakeUser, newFakeCompany);
+});
+
+app.listen(port, () => {
+    console.log('Example app listening at http://localhost:${port}');
+});
 
