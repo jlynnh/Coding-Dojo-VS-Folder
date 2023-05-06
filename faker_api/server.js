@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const port = 8000;
 
-const faker = require('@faker-js/faker');
+const faker = require('@faker-js/faker')
 
 function createUser() {
     const newUser = {
-        password: faker.internet.password(20, true, [A - Z]),
-        email: faker.internet.exampleEmail({ allowSpecialCharacters: true }),
+        password: faker.internet.password(20, true, [A-Z]),
+        email: faker.internet.exampleEmail({allowSpecialCharacters: true }),
         phoneNumber: faker.phone.number(),
         lastName: faker.name.lastName(),
         firstName: faker.name.firstName(),
