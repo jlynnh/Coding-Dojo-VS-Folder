@@ -9,7 +9,6 @@ module.exports.findAllJokes = (req, res) => {
             res.json({ message: 'Something went wrong', error: err })
         });
 }
-
 module.exports.findOneSingleJoke = (req, res) => {
     User.findOne({ _id: req.params.id })
         .then(oneSingleUser => {
