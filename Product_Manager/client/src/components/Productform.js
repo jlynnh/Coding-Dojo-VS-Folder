@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, {useState} from 'react'
 import axios from 'axios'
 
@@ -10,9 +11,9 @@ const dataStyle = {
     width: "700px"
 }
 const Form = (props) => {
-    const [title, setTitle] = useState("")
-    const [price, setPrice] = useState("")
-    const [description, setDescription] = useState("")
+    const [title, setTitle] = useState(String)
+    const [price, setPrice] = useState(Number)
+    const [description, setDescription] = useState(String)
 
     return (
         <div>
@@ -36,4 +37,4 @@ const Form = (props) => {
     )
 }
 
-export default Productform; 
+export default Productform
