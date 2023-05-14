@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import form from './components/form';
+import Productform from './components/Productform';
 
 function App() {
   return (
     <div className="App">
-      <form/>
+      <Productform/>
     </div>
-  );
+  )
 }
 
 export default App;
