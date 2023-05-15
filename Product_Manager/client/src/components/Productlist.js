@@ -28,9 +28,9 @@ const Productlist = (props) => {
         {product.map((product, index)=> {
             return (
             <div key={index}>
-                <p> {product.title}, {product.price}, {product.description} </p>;
-                <Link to={`/detail/${product._id}`}>{product.title}</Link>; 
-                <Link to={'/update/'+ product._id}>Update</Link>;  
+                <p> {product.title} </p>
+                <Link to={`/detail/${product._id}`}>{product.title} Details </Link> 
+                <Link to={'/update/'+ product._id}>Update</Link>
                 <button onClick={(e)=>{deleteProduct(product._id)}}>Delete</button>
             </div>)
         })}
