@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import{BrowserRouter, Routes, Route} from'react-router-dom';
-import Main from '../../views/Main';
+import Main from './views/Main';
+import Detail from './views/Detail';
 function App() {
   return (
     <div>
+      <Main/>
+      <Detail/>
       <BrowserRouter>
         <Routes>
-          <Route element={<Main/>} path="/home" default/>
+          <Route element={<Main/>} path="api/products/" default/>
+          <Route element={<Detail/>} path="api/products/:id"/>
         </Routes>
       </BrowserRouter>
     </div>

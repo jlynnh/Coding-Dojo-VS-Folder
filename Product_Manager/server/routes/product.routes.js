@@ -1,3 +1,4 @@
+const mongoose = require('mongoose'); 
 const ProductController = require('../controller/product.controller');
 
 const routes = (app) => {
