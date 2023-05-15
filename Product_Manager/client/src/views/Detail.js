@@ -7,10 +7,10 @@ const Detail = (props) => {
     const {id} = useParams();
 
     useEffect(() => {
-        axios.get("http://localhost:8000/api/product_db/" + id)
+        axios.get('http://localhost:8000/api/products/'+ id)
         .then(res => {
-            console.log(res.data);
-            setProduct(res.data);
+            console.log(res);
+            setProduct(res.data.Product);
         })
         .catch( err => console.log(err));
     }, []);

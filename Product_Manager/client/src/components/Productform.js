@@ -10,14 +10,14 @@ const ProductForm = (props) => {
 
 const onSubmitHandler = (e) => {
     e.preventDefault();    
-    axios.post('http://localhost:8000/api/product_db', {
-        title,
-        price,
-        description
+    axios.post('http://localhost:8000/api/products', {
+        title: title,
+        price: price,
+        description: description
     })
         .then(res=>{
             console.log(res); 
-            console.log(res.data);
+            console.log(res.data.Product);
 
         setProduct([...product, res.data]);  
         })
@@ -37,7 +37,7 @@ const onSubmitHandler = (e) => {
                     </div>
                     <div className='form-group'>
                         <label htmlFor='price'className='price'>Price:</label>
-                        <input type='number' name='price' id='data' className='form-control-price' onChange={ (e) => setPrice(e.target.value) }/>
+                        <input type='text' name='price' id='data' className='form-control-price' onChange={ (e) => setPrice(e.target.value) }/>
                     </div>
                     <div className='form-group'>
                         <label htmlFor='description'className='description'>Description:</label>

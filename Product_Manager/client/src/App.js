@@ -6,13 +6,11 @@ import Update from './components/Update';
 function App() {
   return (
     <div>
-      <Main/>
-      <Detail/>
       <BrowserRouter>
         <Routes>
-          <Route element={<Main/>} path="api/products/" default/>
-          <Route element={<Detail/>} path="api/products/:id"/>
-          <Route element={<Update/>} path="api/products/:id"/>
+          <Route element={<Main/>} path="/" default/>
+          <Route element={<Detail/>} path="/detail/:id"/>
+          <Route element={<Update/>} path="/update/:id"/>
         </Routes>
       </BrowserRouter>
     </div>
