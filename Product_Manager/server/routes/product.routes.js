@@ -1,6 +1,12 @@
-const ProductController = require('../controllers/product.controller');
+const ProductController = require('../controller/product.controller');
 
-module.exports = app => {
+const routes = (app) => {
+    app.get("/api",(req,res) => {
+        res.json({msg: "new product"})
+    })
+}
+
+module.exports = (app) => {
     app.get('/api/products', ProductController.findAllProducts);
     app.get('/api/products/:id', ProductController.findOneSingleProduct);
     app.patch('/api/products/:id', ProductController.updateExistingProduct);
