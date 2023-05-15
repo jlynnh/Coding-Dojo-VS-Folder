@@ -25,17 +25,20 @@ const onSubmitHandler = (e) => {
         <div>
             <div className='row'>
                 <form action='' className='form-inline' onSubmit={onSubmitHandler}>
-                    <div className='form-group'>
-                        <label htmlFor='title'className='data'>Title:</label>
-                        <input type='text' name='title' id='title' className='form-control' onChange={ (e) => setTitle(e.target.value) }/>
+                    <div className='header'>
+                        <h1>Product Manager</h1>
                     </div>
                     <div className='form-group'>
-                        <label htmlFor='price'className='data'>Price:</label>
-                        <input type='number' name='price' id='price' className='form-control' onChange={ (e) => setPrice(e.target.value) }/>
+                        <label htmlFor='title'className='title'>Title:</label>
+                        <input type='text' name='title' id='data' className='form-control-title' onChange={ (e) => setTitle(e.target.value) }/>
                     </div>
                     <div className='form-group'>
-                        <label htmlFor='description'className='data'>Description:</label>
-                        <input type='text' name='description' id='description' className='form-control' onChange={ (e) => setDescription(e.target.value) }/>
+                        <label htmlFor='price'className='price'>Price:</label>
+                        <input type='number' name='price' id='data' className='form-control-price' onChange={ (e) => setPrice(e.target.value) }/>
+                    </div>
+                    <div className='form-group'>
+                        <label htmlFor='description'className='description'>Description:</label>
+                        <input type='text' name='description' id='data' className='form-control-description' onChange={ (e) => setDescription(e.target.value) }/>
                     </div>
                     <button htmlFor='button' className='button' onClick={()=> alert("Product has been created!")}>Create</button>
                 </form>
