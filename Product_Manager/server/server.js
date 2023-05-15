@@ -5,7 +5,7 @@ const port = 8000;
 
 require("./config/mongoose.config");
 
-app.use(cors());
+app.use(cors({origin: "http://localhost:3000"}));
 app.use(express.json(), express.urlencoded({ extended: true }));
 
 const AllMyProductRoutes = require("./routes/product.routes");

@@ -8,6 +8,7 @@ const Update = (props) => {
     const [price, setPrice] = useState();
     const [description, setDescription] = useState();
     const navigate = useNavigate();
+    const {removeFromDom, product, setProduct} = props;
 
     useEffect(() => {
         axios.get('http://localhost:8000/api/products/' + id)
@@ -49,6 +50,7 @@ return (
             <label>Description</label><br />
             <input type='text' name='description' value={description} onChange={(e) => {setDescription(e.target.value)}}/>    
             </p>
+            <button onClick={(e)=>{updateProduct(product._id)}}>Update</button>;
             <input type="submit" />
         </form>
     </div>

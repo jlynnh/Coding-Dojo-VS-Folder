@@ -31,7 +31,7 @@ const Productlist = (props) => {
             <div key={index}>
                 <p> {product.title}, {product.price}, {product.description} </p>;
                 <Link to={'/product/${product._id}'}>{product.title}</Link>;
-                <Link to={'/product/update/'+ product._id}>Update</Link>
+                <Link to={'/product/update/'+ product._id}>Update</Link>;
                 <button onClick={(e)=>{deleteProduct(product._id)}}>Delete</button>
             </div>)
         })}
