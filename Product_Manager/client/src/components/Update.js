@@ -8,28 +8,29 @@ const Update = (props) => {
     const [price, setPrice] = useState();
     const [description, setDescription] = useState();
     const navigate = useNavigate();
-    const {removeFromDom, product, setProduct} = props;
+    const {product} = props;
 
     useEffect(() => {
-        axios.get('http://localhost:8000/api/products/' + id)
+        axios.get(`http://localhost:8000/api/products/${id}`)
         .then(res => {
-            setTitle(res.data.title);
-            setPrice(res.data.price);
-            setDescription(res.data.description);
+            console.log("Response from get 1 in update", res);
+            setTitle(res.data.Product.title);
+            setPrice(res.data.Product.price);
+            setDescription(res.data.Product.description);
         })
         .catch(err => console.log(err))
     }, [])
 
     const updateProduct = (e) => {
         e.preventDefault();
-        axios.patch('http:localhost:8000/api/products/' + id, {
-            title,
-            price,
-            description
+        axios.put(`http://localhost:8000/api/products/${id}`, {
+            title: title,
+            price: price,
+            description: description
         })
         .then(res=> {
             console.log(res);
-            navigate("/Main");
+            navigate("/");
         })
         .catch(err => console.log(err))
     }
@@ -50,8 +51,7 @@ return (
             <label>Description</label><br />
             <input type='text' name='description' value={description} onChange={(e) => {setDescription(e.target.value)}}/>    
             </p>
-            <button onClick={(e)=>{updateProduct(product._id)}}>Update</button>;
-            <input type="submit" />
+            <button>Update</button>
         </form>
     </div>
 )

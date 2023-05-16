@@ -16,6 +16,7 @@ module.exports.findAllProducts = (req, res) => {
         });
 }
 module.exports.findOneSingleProduct = (req, res) => {
+    console.log(req.params)
     Product.findOne({ _id: req.params.id })
         .then(oneSingleProduct => {
             res.status(200).json({ Product: oneSingleProduct })
@@ -33,13 +34,15 @@ module.exports.createNewProduct = (req, res) => {
             res.status(400).json({ message: 'Something went wrong', error: err })
         });}
 module.exports.updateExistingProduct = (req, res) => {
-    Product.findOneAndUpdate(
+    console.log(req.body)
+    console.log(req.params)
+    Product.updateOne(
         { _id: req.params.id },
             req.body,
         { new: true, runValidators: true }
             )
         .then(updatedProduct => {
-            res.status(200).json({ Product: updatedUser })
+            res.status(200).json({ Product: updatedProduct })
         })
         .catch((err) => {
             res.status(400).json({ message: 'Something went wrong', error: err })
