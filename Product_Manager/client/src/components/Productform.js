@@ -31,19 +31,21 @@ const onSubmitHandler = (e) => {
                     <div className='header'>
                         <h1>Product Manager</h1>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group-title'>
                         <label htmlFor='title'className='title'>Title:</label>
                         <input type='text' name='title' id='data' className='form-control-title' onChange={ (e) => setTitle(e.target.value) }/>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group-price'>
                         <label htmlFor='price'className='price'>Price:</label>
                         <input type='text' name='price' id='data' className='form-control-price' onChange={ (e) => setPrice(e.target.value) }/>
                     </div>
-                    <div className='form-group'>
+                    <div className='form-group-description'>
                         <label htmlFor='description'className='description'>Description:</label>
                         <input type='text' name='description' id='data' className='form-control-description' onChange={ (e) => setDescription(e.target.value) }/>
                     </div>
-                    <button htmlFor='button' className='button' onClick={()=> alert("Product has been created!")}>Create</button>
+                    <div className="container">
+                        <button htmlFor='button' className='button-productform' onClick={()=> alert("Product has been created!")}>Create</button>
+                    </div>
                 </form>
             </div>
         </div>

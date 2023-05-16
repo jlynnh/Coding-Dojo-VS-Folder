@@ -1,11 +1,42 @@
-.form-inline {
-  width: 750px;
-  margin-top: 10px;
-  padding: 20px;
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-group {
-  border: 2px solid rgb(85, 84, 84);
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inline {
+  width: 750px;
+}
+
+.form-group-title {
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  height: 80px;
+  width: 700px;
+}
+
+.form-control-title {
+  border: 2px solid grey;
+  display: flex;
+  margin-left: 165px;
+  margin-top: -63px;
+  height: 60px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.form-group-price {
+  border: 2px solid grey;
   border-radius: 10px;
   background-color: #f2f2f2;
   padding-left: 20px;
@@ -17,44 +48,44 @@
   width: 700px;
 }
 
-.form-control-title {
-  border: 2px solid gray;
+.form-control-price {
+  border: 2px solid grey;
   display: flex;
   margin-left: 165px;
+  margin-top: -63px;
   height: 60px;
   width: 500px;
   border-radius: 10px;
-  position: fixed;
-  top: 98px
 }
 
-.form-control-price {
-  border: 2px solid gray;
-  display: flex;
-  margin-left: 165px;
-  height: 60px;
-  width: 500px;
+.form-group-description {
+  border: 2px solid grey;
   border-radius: 10px;
-  position: fixed;
-  top: 189px
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  height: 80px;
+  width: 700px;
 }
 
 .form-control-description {
-  border: 2px solid gray;
+  border: 2px solid grey;
   display: flex;
   margin-left: 165px;
+  margin-top: -63px;
   height: 60px;
   width: 500px;
   border-radius: 10px;
-  position: fixed;
-  top: 278px
 }
 
 
 .title, .price, .description {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: #333333;
+  color: darkslategrey;
   font-size: 14pt;
   height: 70px;
   width: 150px;
@@ -73,6 +104,35 @@
   margin-top: 10px;
 }
 
+.button-productform {
+  border: 2px solid rgb(85, 84, 84);
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-list {
+  width: 750px;
+  display: inline-block;
+  margin-left: 380px;
+  
+  
+}
+
+.header-list {
+  text-align: center;
+  height: 40px;
+  width: 750px;
+}
+
 .button {
   border: 2px solid rgb(85, 84, 84);
   border-radius: 10px;
@@ -84,6 +144,20 @@
 
 .h1 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.productlink {
+  margin-left: 200px;
+}
+
+.updatelink {
+  position: fixed;
+  left: 750px
+}
+
+.deletebutton {
+  position: fixed;
+  left: 850px
 }
 
 .App-logo {

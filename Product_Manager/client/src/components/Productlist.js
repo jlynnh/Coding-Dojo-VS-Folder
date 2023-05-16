@@ -23,15 +23,15 @@ const Productlist = (props) => {
     }, [setProduct]);
 
     return (
-    <div>
-        <h1>All Products</h1>
+    <div className="container-list">
+        <h1 className="header-list">All Products</h1>
         {product.map((product, index)=> {
             return (
             <div key={index}>
-                <p> {product.title} </p>
-                <Link to={`/detail/${product._id}`}>{product.title} Details </Link> 
-                <Link to={'/update/'+ product._id}>Update</Link>
-                <button onClick={(e)=>{deleteProduct(product._id)}}>Delete</button>
+                
+                <Link to={`/detail/${product._id}`} className="productlink">{product.title}</Link> 
+                <Link to={'/update/'+ product._id} className="updatelink">Update</Link>
+                <button onClick={(e)=>{deleteProduct(product._id)}} className="deletebutton">Delete</button>
             </div>)
         })}
     </div>);
