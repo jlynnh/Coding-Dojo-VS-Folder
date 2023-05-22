@@ -19,7 +19,7 @@ const onSubmitHandler = (e) => {
             console.log(res); 
             console.log(res.data.Product);
 
-        setProduct([...product, res.data]);  
+        setProduct([...product, res.data.Product]);  
         })
         .catch(err=>console.log(err))
 }
