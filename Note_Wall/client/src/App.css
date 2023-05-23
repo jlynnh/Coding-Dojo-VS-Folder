@@ -1,0 +1,105 @@
+.container {
+  width: 700px;
+  
+}
+
+.button-edit, .button-delete, .button-create {
+  position: fixed;
+  top: 400px; 
+}
+
+.button-edit {
+  margin-left: 0px;
+}
+
+.button-delete {
+  margin-left: 120px;
+}
+
+.form-container {
+  width: 650px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border: 3px solid grey;
+}
+
+.note-create {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.note-field, .note-fieldb {
+  width: 600px;
+}
+
+.note-fieldb {
+  height: 150px;
+}
+
+.page-title {
+  width: 500px;
+  font-size: 24pt;
+  
+}
+
+.back-link {
+  
+  position: fixed;
+  top: 10px;
+  margin-left: 545px;
+}
+
+
+.table-header {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: lightgray;
+  font-size: 14pt;
+}
+
+.note-title {
+  font-size: 12pt;
+}
+
+.note-body {
+  font-size: 10pt;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
