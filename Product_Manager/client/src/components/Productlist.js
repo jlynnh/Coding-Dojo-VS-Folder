@@ -34,7 +34,8 @@ const Productlist = (props) => {
                 <button onClick={(e)=>{deleteProduct(product._id)}} className="deletebutton">Delete</button>
             </div>)
         })}
-    </div>);
+    </div>
+    );
 }
 
 
